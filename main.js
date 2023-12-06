@@ -19,8 +19,8 @@ function fullImgDeliveryClose() {
     .classList.remove("full-img-show");
   document.getElementById("body").classList.remove("body-no-scroll");
 }
-setTimeout(screenSaver, 3800);
-setTimeout(screenSaverZindex, 4800);
+setTimeout(screenSaver, 3000);
+setTimeout(screenSaverZindex, 4000);
 setTimeout(screenSaverLogo1Transform, 1000);
 setTimeout(screenSaverLogo2Show, 1300);
 function screenSaver() {
